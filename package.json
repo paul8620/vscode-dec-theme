@@ -1,0 +1,22 @@
+{
+    "name": "dec-theme",
+    "displayName": "DEC Theme",
+    "description": "A color scheme inspired from old DEC hardware machines and terminal",
+    "publisher": "paul8620",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DEC Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DEC Theme-color-theme.json"
+            }
+        ]
+    }
+}
